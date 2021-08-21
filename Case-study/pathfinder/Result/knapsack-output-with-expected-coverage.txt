@@ -1,0 +1,100 @@
+<START> performance-overhead: 5
+max-weight: 77, max-profit: 33096.04
+Corresponding performance-overhead-in-percentage: 5.00, sdc-coverage-in-percentage: 8.33
+optimal llfi_index set found by knapsack: 129 343 314 325 332 336 112
+<END>
+<START> performance-overhead: 10
+max-weight: 154, max-profit: 87319.65
+Corresponding performance-overhead-in-percentage: 10.00, sdc-coverage-in-percentage: 21.98
+optimal llfi_index set found by knapsack: 343 156 162 325 332 106 112
+<END>
+<START> performance-overhead: 15
+max-weight: 230, max-profit: 132258.90
+Corresponding performance-overhead-in-percentage: 15.00, sdc-coverage-in-percentage: 33.29
+optimal llfi_index set found by knapsack: 343 156 162 325 101 106
+<END>
+<START> performance-overhead: 20
+max-weight: 307, max-profit: 174312.00
+Corresponding performance-overhead-in-percentage: 20.00, sdc-coverage-in-percentage: 43.87
+optimal llfi_index set found by knapsack: 156 162 303 325 101 106
+<END>
+<START> performance-overhead: 25
+max-weight: 384, max-profit: 207211.20
+Corresponding performance-overhead-in-percentage: 25.00, sdc-coverage-in-percentage: 52.15
+optimal llfi_index set found by knapsack: 156 162 303 101 225 106
+<END>
+<START> performance-overhead: 30
+max-weight: 460, max-profit: 243826.81
+Corresponding performance-overhead-in-percentage: 30.00, sdc-coverage-in-percentage: 61.37
+optimal llfi_index set found by knapsack: 129 343 156 162 303 314 325 332 87 101 106 112
+<END>
+<START> performance-overhead: 35
+max-weight: 537, max-profit: 279112.95
+Corresponding performance-overhead-in-percentage: 35.00, sdc-coverage-in-percentage: 70.25
+optimal llfi_index set found by knapsack: 129 343 156 162 303 325 332 87 101 225 106 112
+<END>
+<START> performance-overhead: 40
+max-weight: 614, max-profit: 313436.72
+Corresponding performance-overhead-in-percentage: 40.00, sdc-coverage-in-percentage: 78.89
+optimal llfi_index set found by knapsack: 343 141 156 162 303 325 87 101 225 112
+<END>
+<START> performance-overhead: 45
+max-weight: 691, max-profit: 331669.94
+Corresponding performance-overhead-in-percentage: 45.00, sdc-coverage-in-percentage: 83.48
+optimal llfi_index set found by knapsack: 141 156 303 325 87 91 101 225
+<END>
+<START> performance-overhead: 50
+max-weight: 768, max-profit: 358256.12
+Corresponding performance-overhead-in-percentage: 50.00, sdc-coverage-in-percentage: 90.17
+optimal llfi_index set found by knapsack: 129 343 141 156 303 314 325 332 336 87 91 101 225 112 116
+<END>
+<START> performance-overhead: 55
+max-weight: 844, max-profit: 368703.69
+Corresponding performance-overhead-in-percentage: 55.00, sdc-coverage-in-percentage: 92.80
+optimal llfi_index set found by knapsack: 129 343 141 273 156 162 303 314 325 332 87 91 101 225 106 112
+<END>
+<START> performance-overhead: 60
+max-weight: 921, max-profit: 375106.38
+Corresponding performance-overhead-in-percentage: 60.00, sdc-coverage-in-percentage: 94.41
+optimal llfi_index set found by knapsack: 129 343 141 273 156 162 303 325 332 87 91 101 225 106 112 247
+<END>
+<START> performance-overhead: 65
+max-weight: 998, max-profit: 381214.38
+Corresponding performance-overhead-in-percentage: 65.00, sdc-coverage-in-percentage: 95.95
+optimal llfi_index set found by knapsack: 129 343 141 273 156 162 303 314 318 325 332 336 87 91 101 225 106 112 116 247
+<END>
+<START> performance-overhead: 70
+max-weight: 1074, max-profit: 390820.81
+Corresponding performance-overhead-in-percentage: 70.00, sdc-coverage-in-percentage: 98.37
+optimal llfi_index set found by knapsack: 129 343 141 273 156 162 303 314 318 325 332 336 87 91 101 225 229 106 112 116 247
+<END>
+<START> performance-overhead: 75
+max-weight: 1151, max-profit: 394444.24
+Corresponding performance-overhead-in-percentage: 75.00, sdc-coverage-in-percentage: 99.28
+optimal llfi_index set found by knapsack: 129 343 141 273 156 285 162 303 314 318 325 332 336 87 91 101 225 229 106 112 116 247
+<END>
+<START> performance-overhead: 80
+max-weight: 1228, max-profit: 397034.70
+Corresponding performance-overhead-in-percentage: 80.00, sdc-coverage-in-percentage: 99.93
+optimal llfi_index set found by knapsack: 129 343 141 273 156 285 303 314 325 332 336 87 91 101 225 229 145 112 116 247
+<END>
+<START> performance-overhead: 85
+max-weight: 1305, max-profit: 397303.87
+Corresponding performance-overhead-in-percentage: 85.00, sdc-coverage-in-percentage: 100.00
+optimal llfi_index set found by knapsack: 129 343 141 273 156 285 162 303 314 318 325 332 336 87 91 101 225 229 145 106 112 116 247
+<END>
+<START> performance-overhead: 90
+max-weight: 1382, max-profit: 397303.87
+Corresponding performance-overhead-in-percentage: 90.00, sdc-coverage-in-percentage: 100.00
+optimal llfi_index set found by knapsack: 129 343 141 273 156 285 162 303 314 318 325 332 336 87 91 101 225 229 145 106 112 116 247
+<END>
+<START> performance-overhead: 95
+max-weight: 1458, max-profit: 397303.87
+Corresponding performance-overhead-in-percentage: 95.00, sdc-coverage-in-percentage: 100.00
+optimal llfi_index set found by knapsack: 129 343 141 273 156 285 162 303 314 318 325 332 336 87 91 101 225 229 145 106 112 116 247
+<END>
+<START> performance-overhead: 100
+max-weight: 1535, max-profit: 397303.87
+Corresponding performance-overhead-in-percentage: 100.00, sdc-coverage-in-percentage: 100.00
+optimal llfi_index set found by knapsack: 129 343 141 273 156 285 162 303 314 318 325 332 336 87 91 101 225 229 145 106 112 116 247
+<END>

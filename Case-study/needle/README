@@ -1,0 +1,10 @@
+Sequence of commands to obtain expected and actual SDC coverage:
+1.  python3 getExpectedSDCCoverage.py
+2.  To get actual SDC-coverage with Peppa-X generated input after protecting most vulnerable instruction sets obtained from knapsack run with the program default-input in step 1, run the following:
+
+        python3 getActualSDCCoverage.py <Optimal instruction sets from step 1> <FI-simulation data path> <Number of FI-trials in that folder>
+
+	Sample command: python3 getActualSDCCoverage.py Result/optimal_instruction_sets.txt FI-result/needle-16-180-1/llfi 1000
+
+
+Note: see the expected and actual SDC coverage in 'Result' folder

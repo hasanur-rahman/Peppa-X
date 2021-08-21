@@ -1,0 +1,37 @@
+Thu Aug 12 20:38:45 2021: Starting Initialization
+
+
+Mini-Application Name    : CoMD-serial
+Mini-Application Version : 1.1
+Platform:
+  hostname: karthik-pc14
+  kernel name: 'Linux'
+  kernel release: '4.4.0-112-generic'
+  processor: 'x86_64'
+Build:
+  CC: '/ubc/ece/home/kp/grads/lpalazzi/Documents/DependableSystemsLab/LLFI/llvm/bin/clang'
+  compiler version: 'clang version 3.4 (tags/RELEASE_34/final)'
+  CFLAGS: '-std=c99 -g -DDOUBLE -g -O0  '
+  LDFLAGS: '-lm '
+  using MPI: false
+  Threading: none
+  Double Precision: true
+
+Command Line Parameters:
+  doeam: 0
+  potDir: pots
+  potName: Cu_u6.eam
+  potType: funcfl
+  nx: 13
+  ny: 20
+  nz: 13
+  xproc: 1
+  yproc: 1
+  zproc: 1
+  Lattice constant: -1 Angstroms
+  nSteps: 17
+  printRate: 10
+  Time step: 1 fs
+  Initial Temperature: 2.2 K
+  Initial Delta: 0.2 Angstroms
+

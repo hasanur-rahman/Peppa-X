@@ -1,0 +1,4 @@
+
+sample command:
+	python3 getSum.py "1000 10"
+

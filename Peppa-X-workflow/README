@@ -1,0 +1,31 @@
+Command to execute Peppa-X workflow is as follows:
+
+	python3 runPeppaXworkflow.py <benchmark-name> <benchmark-default-input> <max number of generations you want by genetic algorithm>
+
+<benchmark-name> should one of the followings:
+"pathfinder"
+"needle"
+"comd"
+"hpccg"
+"particlefilter"
+"fft"
+"xsbench"
+
+<benchmark-default-input> should be one of the following:
+for Pathfinder: "1000 10"
+for Needle: "2048 10 1"
+for Particlefilter: "-x 30 -y 30 -z 40 -np 150"
+for Comd: "-x 15 -y 15 -z 15 -N 15 -T 2.2 -r 0.2"
+for Hpccg: "64 64 64"
+for Xsbench: "-t 1 -s small -g 512 -l 1500"
+for FFT: "-m10 -p1 -n65536 -l4 -t"
+
+
+
+Example command:
+	python3 runPeppaXworkflow.py "needle" "2048 10 1" 2
+
+
+Note that this script skips 'FI-simulation-And-Evaluation' part as this part is already done manually and put in the 'benchmarkname/sum/Input' folder for each benchmark with the name 'pruning-per-inst-sdc-rates.csv'. As this part requires the script to be on the same machine where FI-simulated data exists in order to evaluate FI-Simulated data.
+
+This 'pruning-per-inst-sdc-rates.csv' file is generated after evaluating the FI-simulated data that was run with the representative instructions set and small FI-input of each benchmark.

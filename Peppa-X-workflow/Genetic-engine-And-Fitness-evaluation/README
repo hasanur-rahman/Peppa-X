@@ -1,0 +1,6 @@
+This steps causes genetic engine to find the best input that has relatively higher sdc-rate with the help of our dynamic analysis technique
+
+Step to run the genetic engine:
+	1. Go to fitness-function folder of a benchmark
+	2. Run the following command:
+		python3 getSum.py <any input from our provided input range of current benchmark>

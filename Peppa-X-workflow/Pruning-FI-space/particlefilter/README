@@ -1,0 +1,3 @@
+sequence of commands to run:
+	python3 runFIPruning.py "-x 30 -y 30 -z 40 -np 150" particlefilter
+	python3 getPruningRatio.py Result/pruning_pass.log &> Result/pruning_ratio.log

@@ -1,0 +1,12 @@
+This directory contains llvm3.4 compiled IR files for all benchmarks.
+
+The sequence of commands to get the compiled IR file from benchmark source code are as follows:
+
+	1. clang -emit-llvm -S *.c
+	2. If multiple .ll files exist after step 1, then run 'llvm-link' command as follows:
+		llvm-link -S -o <benchmarkName>.ll file1.ll file2.ll file3.ll .......
+
+
+Note:
+i. clang, llvm-link version should be 3.4
+ii. If the source code contains C++ files then use 'clang++' instead of 'clang' in step 1.

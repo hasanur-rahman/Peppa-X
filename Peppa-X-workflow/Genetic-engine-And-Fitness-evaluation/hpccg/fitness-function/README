@@ -1,0 +1,4 @@
+
+sample command:
+	python3 getSum.py "64 64 64"
+

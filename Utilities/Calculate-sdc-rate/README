@@ -1,0 +1,35 @@
+The 'getFailureRates.py' script calculates the sdc-rate given a FI-simulation data path, Max number of FI-simulations for that data path and the program input used to run fault injection.
+
+The command to run the script is as follows:
+	python3 getFailureRates.py "<FI-simulation path>/llfi" < number of fault injections > <program input> 
+
+
+Example commands for SDC-bound inputs by both Baseline and Peppa-X at 200 generations are follows:
+
+Needle:
+	For Best SDC-bound input by Baseline for 200 generations:
+		python3 getFailureRates.py "../../random-FI/needle/needle-baseline-best-input-200-gen-fi/llfi" 1000 "2096 193 1"
+
+	For Best SDC-bound input by Peppa-X for 200 generations:
+		python3 getFailureRates.py "../../random-FI/needle/needle-peppa-best-input-200-gen-fi/llfi" 1000 "16 180 1"
+
+
+CoMD:
+	For Best SDC-bound input by Baseline for 200 generations:
+		python3 getFailureRates.py "../../random-FI/comd/comd-baseline-best-input-200-gen-fi/llfi" 1000 "-x 11 -y 13 -z 19 -N 14 -T 2.2 -r 0.2"
+
+	For Best SDC-bound input by Peppa-X for 200 generations:
+		python3 getFailureRates.py "../../random-FI/comd/comd-peppa-best-input-200-gen-fi/llfi" 1000 "-x 13 -y 20 -z 13 -N 17 -T 2.2 -r 0.2"
+
+
+Xsbench:
+	For Best SDC-bound input by Baseline for 200 generations:
+		python3 getFailureRates.py "../../random-FI/xsbench/xsbench-baseline-best-input-fi-200-gen/llfi" 1000 "-t 1 -s small -g 6359 -l 13759"
+
+	For Best SDC-bound input by Peppa-X for 200 generations:
+		python3 getFailureRates.py "../../random-FI/xsbench/xsbench-peppa-best-input-200-gen-fi/llfi" 1000 "-t 1 -s small -g 1 -l 18140"
+
+
+Note: 
+- One can do fault-injection for a specific input of any benchmark with LLFI by running the scripts provided in "Peppa-X/Peppa-X workflow/FI-simulation-And-Evaluation/Simulation/FI-for-initial-study" folder.
+- there will be deviations in SDC probabilities because of random sampling of fault-injected instructions by LLFI. But the result will be consistent, meaning if an input demonstrates higher SDC probability than another input does, then the former one will always demonstrate higher SDC probability, regardless of number of LLFI run with those inputs.	

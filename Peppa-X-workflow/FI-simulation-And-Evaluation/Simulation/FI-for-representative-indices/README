@@ -1,0 +1,10 @@
+This step runs the fault-injection trials for the small FI input with representative static instructions set of a benchmark  obtained from step two(Pruning FI space) of Peppa-X workflow in order to calculate to per-instruction sdc-rate which is needed by Genetic engine in the next step of the workflow.  
+
+This step require three things to run:
+	1. a llvm3.4 compiled IR file for the benchmark and should be put in the 'base' directory
+	2. Modify the runFiForIndex.py script's defined variables with appropriate benchmark's parameter
+	3. an representative instructions list "index_list.txt" obtained from step two of Peppa-X workflow.
+
+
+Sample command:
+		python3 runFiForIndex.py

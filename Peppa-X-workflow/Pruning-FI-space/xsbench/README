@@ -1,0 +1,3 @@
+sequence of commands to run:
+	1. python3 runFIPruning.py "-t 1 -s small -g 512 -l 1500" xsbench
+	2. python3 getPruningRatio.py Result/pruning_pass.log &> Result/pruning_ratio.log

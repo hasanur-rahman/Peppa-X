@@ -1,0 +1,18 @@
+To inject fault injection, one can run the following command:
+    python runFi.py <benchmark> <program input>
+
+Here, <benchmark> should be one of the following:
+"pathfinder"
+"needle"
+"comd"
+"hpccg"
+"particlefilter"
+"fft"
+"xsbench"
+
+sample command:
+    python runFi.py "pathfinder" "50 20"
+    
+Note: llvm-IR file should be present in this directory. In the above example, it is "pathfinder.ll"
+
+Also, one can set the number of fault-injections inside "input.yaml" file.

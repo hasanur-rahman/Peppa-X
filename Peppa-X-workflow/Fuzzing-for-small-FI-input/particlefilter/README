@@ -1,0 +1,4 @@
+
+sample command:
+	python3 findRefInput.py "-x 30 -y 30 -z 40 -np 150"
+

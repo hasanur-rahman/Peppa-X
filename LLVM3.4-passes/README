@@ -1,0 +1,6 @@
+These two llvm3.4 passes are used by Peppa-X workflow. 
+
+1. Peppa-X leverages 'DumpOnceProfiling.so' pass to evaluate fitness score with the help of our dynamic analysis technique described in the paper.
+2. Moreover, Peppa-X leverages 'FIPruning.so' pass to effectively find data-dependency in the control-flow graph to find representative instructions to prune the FI-space.
+
+Note: First build llvm3.4 with the help of 'build-llvm-v3-4.sh' bash file. Then put these two .so files(llvm pass) inside "/home/<username>/llvm-tool/llvm-3.4/Release/lib" directory.

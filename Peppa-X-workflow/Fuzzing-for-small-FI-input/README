@@ -1,0 +1,5 @@
+This step of our workflow fuzzes for a small FI input that has same amount of code-coverage as program default input.
+
+The command to find small FI input:
+		
+		python3 findRefInput.py <program-default-input>

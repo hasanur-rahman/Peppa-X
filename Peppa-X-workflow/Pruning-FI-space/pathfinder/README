@@ -1,0 +1,3 @@
+sequence of commands to run:
+	1. python3 runFIPruning.py "1000 10" pathfinder
+	2. python3 getPruningRatio.py Result/pruning_pass.log &> Result/pruning_ratio.log

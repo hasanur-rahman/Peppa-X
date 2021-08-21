@@ -1,0 +1,3 @@
+Here are six sample fault-injection results for six SDC-bound inputs from three benchmarks (Needle, CoMD, Xsbench) for 200 generations.
+
+One can do fault-injection for a specific input of any benchmark with LLFI by running the scripts provided in "Peppa-X/Peppa-X workflow/FI-simulation-And-Evaluation/Simulation/FI-for-initial-study" folder.

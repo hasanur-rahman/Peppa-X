@@ -1,0 +1,2 @@
+sample command:
+	./run.sh needle-llfi_index.ll input_list.txt

@@ -1,0 +1,47 @@
+================================================================================
+                   __   __ ___________                 _                        
+                   \ \ / //  ___| ___ \               | |                       
+                    \ V / \ `--.| |_/ / ___ _ __   ___| |__                     
+                    /   \  `--. \ ___ \/ _ \ '_ \ / __| '_ \                    
+                   / /^\ \/\__/ / |_/ /  __/ | | | (__| | | |                   
+                   \/   \/\____/\____/ \___|_| |_|\___|_| |_|                   
+
+================================================================================
+                    Developed at Argonne National Laboratory
+                                   Version: 13
+================================================================================
+                                  INPUT SUMMARY
+================================================================================
+Verification Mode:            on
+Materials:                    12
+H-M Benchmark Size:           small
+Total Nuclides:               68
+Gridpoints (per Nuclide):     1
+Unionized Energy Gridpoints:  68
+XS Lookups:                   18,140
+Threads:                      1
+Est. Memory Usage (MB):       0
+================================================================================
+                                 INITIALIZATION
+================================================================================
+Generating Nuclide Energy Grids...
+Sorting Nuclide Energy Grids...
+Generating Unionized Energy Grid...
+Copying and Sorting all nuclide grids...
+Assigning energies to unionized grid...
+Assigning pointers to Unionized Energy Grid...
+Aligning Unionized Grid...(0% complete)
+Loading Mats...
+
+================================================================================
+                                   SIMULATION
+================================================================================
+Calculating XS's... (0% completed)Calculating XS's... (6% completed)Calculating XS's... (11% completed)Calculating XS's... (17% completed)Calculating XS's... (22% completed)Calculating XS's... (28% completed)Calculating XS's... (33% completed)Calculating XS's... (39% completed)Calculating XS's... (44% completed)Calculating XS's... (50% completed)Calculating XS's... (55% completed)Calculating XS's... (61% completed)Calculating XS's... (66% completed)Calculating XS's... (72% completed)Calculating XS's... (77% completed)Calculating XS's... (83% completed)Calculating XS's... (88% completed)Calculating XS's... (94% completed)Calculating XS's... (99% completed)
+Simulation complete.
+================================================================================
+                                     RESULTS
+================================================================================
+Threads:     1
+Lookups:     18,140
+Verification checksum: 91310090
+================================================================================

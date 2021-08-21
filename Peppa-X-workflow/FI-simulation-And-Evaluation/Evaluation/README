@@ -1,0 +1,6 @@
+This step evaluates / calculates sdc-rate for the representatives instructions from the FI-simulation data for small FI input of a benchmark.
+
+In order to evaluate, do the following:
+	1. go to a benchmark folder
+	2. run the getClusterFailureRates.py script with the following parameters:
+		python3 getClusterFailureRates.py <FI-simulation data folder path> <Benchmark name> <Number of representative instructions> <Max number of FI-simulation per representative instructions>

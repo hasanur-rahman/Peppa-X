@@ -1,0 +1,3 @@
+one need to build LLFI to do fault-injection experiments.
+LLFI can be found here:
+	https://github.com/DependableSystemsLab/LLFI

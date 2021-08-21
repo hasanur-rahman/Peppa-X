@@ -1,0 +1,261 @@
+rm: cannot remove 'Result/representatives.txt': No such file or directory
+<START>*********** seqeunces after ignoring excluded inst list **********
+[(11, 'load'), (12, 'icmp')]
+[(14, 'load'), (15, 'getelementptr'), (16, 'load'), (19, 'load'), (20, 'getelementptr'), (21, 'load')]
+[(28, 'load'), (30, 'mul'), (31, 'sext'), (33, 'extractvalue'), (34, 'extractvalue'), (35, 'select'), (37, 'bitcast')]
+[(29, 'load')]
+[(39, 'load'), (40, 'sext'), (42, 'extractvalue'), (43, 'extractvalue'), (44, 'select'), (46, 'bitcast')]
+[(50, 'load'), (52, 'icmp')]
+[(51, 'load')]
+[(54, 'load'), (59, 'getelementptr')]
+[(55, 'load'), (57, 'mul'), (58, 'sext')]
+[(56, 'load')]
+[(60, 'load'), (61, 'sext'), (63, 'getelementptr')]
+[(62, 'load')]
+[(66, 'load'), (67, 'add')]
+[(70, 'load'), (71, 'sext'), (73, 'extractvalue'), (74, 'extractvalue'), (75, 'select'), (77, 'bitcast')]
+[(81, 'load'), (83, 'icmp')]
+[(82, 'load')]
+[(87, 'load'), (89, 'icmp')]
+[(88, 'load')]
+[(91, 'load'), (92, 'sext'), (98, 'getelementptr')]
+[(93, 'load'), (94, 'sext'), (96, 'getelementptr'), (97, 'load')]
+[(95, 'load')]
+[(101, 'load'), (102, 'add')]
+[(106, 'load'), (107, 'add')]
+[(112, 'load'), (114, 'icmp')]
+[(113, 'load')]
+[(116, 'load'), (117, 'sext'), (121, 'getelementptr'), (122, 'load')]
+[(118, 'load'), (119, 'getelementptr'), (120, 'load')]
+[(123, 'load'), (124, 'sext'), (126, 'getelementptr')]
+[(125, 'load')]
+[(129, 'load'), (130, 'add')]
+[(135, 'load'), (137, 'icmp')]
+[(136, 'load')]
+[(141, 'load'), (143, 'icmp')]
+[(142, 'load')]
+[(145, 'load'), (146, 'sext'), (152, 'getelementptr'), (153, 'load')]
+[(147, 'load'), (148, 'sext'), (150, 'getelementptr'), (151, 'load')]
+[(149, 'load')]
+[(156, 'load'), (157, 'add')]
+[(162, 'load'), (163, 'add')]
+[(170, 'load')]
+[(169, 'load')]
+[(179, 'load')]
+[(180, 'load')]
+[(196, 'load')]
+[(197, 'load')]
+[(231, 'load'), (232, 'getelementptr'), (233, 'load'), (242, 'load'), (243, 'getelementptr'), (244, 'load'), (245, 'icmp'), (252, 'load'), (253, 'getelementptr'), (254, 'load'), (268, 'load'), (269, 'getelementptr'), (270, 'load'), (271, 'icmp'), (278, 'load'), (279, 'getelementptr'), (280, 'load'), (366, 'load'), (367, 'icmp'), (369, 'bitcast')]
+[(299, 'load'), (300, 'getelementptr'), (338, 'load'), (339, 'getelementptr'), (340, 'load'), (360, 'load'), (361, 'icmp'), (363, 'bitcast')]
+[(221, 'load')]
+[(295, 'load'), (296, 'add')]
+[(199, 'load')]
+[(201, 'load'), (202, 'sext'), (204, 'extractvalue'), (205, 'extractvalue'), (206, 'select'), (208, 'bitcast')]
+[(212, 'load'), (215, 'icmp')]
+[(213, 'load'), (214, 'sub')]
+[(217, 'load')]
+[(219, 'load')]
+[(225, 'load'), (227, 'icmp')]
+[(226, 'load')]
+[(229, 'load'), (230, 'sext')]
+[(235, 'load'), (236, 'icmp')]
+[(238, 'load')]
+[(239, 'load'), (240, 'sub'), (241, 'sext')]
+[(247, 'load')]
+[(249, 'load'), (250, 'sub'), (251, 'sext')]
+[(259, 'load'), (262, 'icmp')]
+[(260, 'load'), (261, 'sub')]
+[(264, 'load')]
+[(265, 'load'), (266, 'add'), (267, 'sext')]
+[(273, 'load')]
+[(275, 'load'), (276, 'add'), (277, 'sext')]
+[(285, 'load'), (286, 'sext'), (293, 'getelementptr'), (294, 'load')]
+[(287, 'load'), (288, 'add'), (289, 'sext'), (291, 'getelementptr'), (292, 'load')]
+[(290, 'load')]
+[(297, 'load'), (298, 'sext')]
+[(303, 'load'), (304, 'add')]
+[(308, 'load'), (309, 'add')]
+[(314, 'load'), (316, 'icmp')]
+[(315, 'load')]
+[(318, 'load'), (319, 'sext'), (321, 'getelementptr'), (322, 'load')]
+[(320, 'load')]
+[(325, 'load'), (326, 'add')]
+[(332, 'load'), (334, 'icmp')]
+[(333, 'load')]
+[(336, 'load'), (337, 'sext')]
+[(343, 'load'), (344, 'add')]
+[(348, 'load'), (349, 'icmp'), (351, 'bitcast')]
+[(354, 'load'), (355, 'icmp'), (357, 'bitcast')]
+<END>*********** seqeunces after ignoring excluded inst list **********
+
+
+
+<START>------- Representatives  **********
+
+load 11
+icmp 12
+load 14
+load 16
+load 21
+load 28
+sext 31
+extractvalue 33
+extractvalue 34
+bitcast 37
+load 29
+load 39
+sext 40
+extractvalue 42
+extractvalue 43
+bitcast 46
+load 50
+icmp 52
+load 51
+load 54
+load 55
+sext 58
+load 56
+load 60
+sext 61
+load 62
+load 66
+load 70
+sext 71
+extractvalue 73
+extractvalue 74
+bitcast 77
+load 81
+icmp 83
+load 82
+load 87
+icmp 89
+load 88
+load 91
+sext 92
+load 93
+sext 94
+load 97
+load 95
+load 101
+load 106
+load 112
+icmp 114
+load 113
+load 116
+sext 117
+load 122
+load 118
+load 120
+load 123
+sext 124
+load 125
+load 129
+load 135
+icmp 137
+load 136
+load 141
+icmp 143
+load 142
+load 145
+sext 146
+load 153
+load 147
+sext 148
+load 151
+load 149
+load 156
+load 162
+load 170
+load 169
+load 179
+load 180
+load 196
+load 197
+load 231
+load 233
+load 244
+icmp 245
+load 254
+load 270
+icmp 271
+load 280
+icmp 367
+bitcast 369
+load 299
+load 338
+load 340
+icmp 361
+bitcast 363
+load 221
+load 295
+load 199
+load 201
+sext 202
+extractvalue 204
+extractvalue 205
+bitcast 208
+load 212
+icmp 215
+load 213
+load 217
+load 219
+load 225
+icmp 227
+load 226
+load 229
+sext 230
+load 235
+icmp 236
+load 238
+load 239
+sext 241
+load 247
+load 249
+sext 251
+load 259
+icmp 262
+load 260
+load 264
+load 265
+sext 267
+load 273
+load 275
+sext 277
+load 285
+sext 286
+load 294
+load 287
+sext 289
+load 292
+load 290
+load 297
+sext 298
+load 303
+load 308
+load 314
+icmp 316
+load 315
+load 318
+sext 319
+load 322
+load 320
+load 325
+load 332
+icmp 334
+load 333
+load 336
+sext 337
+load 343
+load 348
+icmp 349
+bitcast 351
+load 354
+icmp 355
+bitcast 357
+<END>------- Representatives **********
+
+representative fi sites count:  160
+total fi sites count:  212
+ratio:  0.24528301886792453
+
+see the Result/pruned_ratio.txt file 

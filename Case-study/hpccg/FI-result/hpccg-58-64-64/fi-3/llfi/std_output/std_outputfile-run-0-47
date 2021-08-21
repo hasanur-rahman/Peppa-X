@@ -1,0 +1,13 @@
+Initial Residual = 1600.12
+Iteration = 15   Residual = 18.8742
+Iteration = 30   Residual = 0.097717
+Iteration = 45   Residual = 0.00029422
+Iteration = 60   Residual = 1.19613e-06
+Iteration = 75   Residual = 2.8151e-09
+Iteration = 90   Residual = 1.08909e-11
+Iteration = 105   Residual = 5.37702e-14
+Iteration = 120   Residual = 2.59739e-16
+Iteration = 135   Residual = 9.44915e-19
+Iteration = 149   Residual = 5.01044e-21
+Number of iterations: 149
+Final residual: 5.01044e-21

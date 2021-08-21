@@ -1,0 +1,2 @@
+sample command:
+	./run.sh pathfinder-llfi_index.ll input_list.txt

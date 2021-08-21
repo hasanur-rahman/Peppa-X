@@ -1,0 +1,75 @@
+Sat Apr  3 15:30:56 2021: Starting Initialization
+
+
+Mini-Application Name    : CoMD-serial
+Mini-Application Version : 1.1
+Platform:
+  hostname: karthik-pc14
+  kernel name: 'Linux'
+  kernel release: '4.4.0-112-generic'
+  processor: 'x86_64'
+Build:
+  CC: '/ubc/ece/home/kp/grads/lpalazzi/Documents/DependableSystemsLab/LLFI/llvm/bin/clang'
+  compiler version: 'clang version 3.4 (tags/RELEASE_34/final)'
+  CFLAGS: '-std=c99 -g -DDOUBLE -g -O0  '
+  LDFLAGS: '-lm '
+  using MPI: false
+  Threading: none
+  Double Precision: true
+
+Command Line Parameters:
+  doeam: 0
+  potDir: pots
+  potName: Cu_u6.eam
+  potType: funcfl
+  nx: 13
+  ny: 13
+  nz: 18
+  xproc: 1
+  yproc: 1
+  zproc: 1
+  Lattice constant: -1 Angstroms
+  nSteps: 17
+  printRate: 10
+  Time step: 1 fs
+  Initial Temperature: 600 K
+  Initial Delta: 0 Angstroms
+
+Simulation data: 
+  Total atoms        : 12168
+  Min global bounds  : [   0.0000000000,   0.0000000000,   0.0000000000 ]
+  Max global bounds  : [  46.9950000000,  46.9950000000,  65.0700000000 ]
+
+Decomposition data: 
+  Processors         :      1,     1,     1
+  Local boxes        :      8,     8,    11 =      704
+  Box size           : [   5.8743750000,   5.8743750000,   5.9154545455 ]
+  Box factor         : [   1.0150107991,   1.0150107991,   1.0221087768 ] 
+  Max Link Cell Occupancy: 32 of 64
+
+Potential data: 
+  Potential type   : Lennard-Jones
+  Species name     : Cu
+  Atomic number    : 29
+  Mass             : 63.55 amu
+  Lattice Type     : FCC
+  Lattice spacing  : 3.615 Angstroms
+  Cutoff           : 5.7875 Angstroms
+  Epsilon          : 0.167 eV
+  Sigma            : 2.315 Angstroms
+
+Memory data: 
+  Intrinsic atom footprint =   88 B/atom 
+  Total atom footprint     =   1.021 MB (  1.02 MB/node)
+  Link cell atom footprint =   3.781 MB/node
+  Link cell atom footprint =   6.982 MB/node (including halo cell data
+
+
+Initial energy : -1.166063303475, atom count : 12168 
+
+Sat Apr  3 15:31:14 2021: Initialization Finished
+
+Sat Apr  3 15:31:14 2021: Starting simulation
+
+#                                                                                         Performance
+#  Loop   Time(fs)       Total Energy   Potential Energy     Kinetic Energy  Temperature   (us/atom)     # Atoms

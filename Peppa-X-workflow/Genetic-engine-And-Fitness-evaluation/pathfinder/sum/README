@@ -1,0 +1,6 @@
+sample command:
+	./run.sh /data-2/hasan/var-input/liserver01/pathfinder/pathfinder-ref/llfi  exec-count
+
+
+Note:
+*********** please uncomment line 15 and 16 if you want to recompute per-inst-sdc-rate for a new ref-input ***************

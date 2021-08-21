@@ -1,0 +1,4 @@
+
+sample command:
+	python3 findRefInput.py "-x 15 -y 15 -z 15 -N 15 -T 2.2 -r 0.2"
+

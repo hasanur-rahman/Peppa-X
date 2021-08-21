@@ -1,0 +1,5 @@
+This step of our workflow finds representative static instructions of a program in order reduce FI space.
+
+Sequence of commands to run for each benchmark:
+	1. python3 runFIPruning.py <benchmark-default-input> <benchmark-name>
+	2. python3 getPruningRatio.py Result/pruning_pass.log &> Result/pruning_ratio.log

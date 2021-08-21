@@ -1,0 +1,4 @@
+
+sample command:
+	python3 findRefInput.py "2048 10 1"
+

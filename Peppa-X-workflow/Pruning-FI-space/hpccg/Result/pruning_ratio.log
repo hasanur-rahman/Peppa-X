@@ -1,0 +1,926 @@
+<START>*********** seqeunces after ignoring excluded inst list **********
+[(142, 'load')]
+[(38, 'load'), (39, 'icmp'), (41, 'load'), (42, 'icmp'), (70, 'load'), (71, 'icmp')]
+[(50, 'load'), (51, 'getelementptr'), (52, 'load'), (59, 'load'), (60, 'getelementptr'), (61, 'load'), (73, 'load'), (74, 'getelementptr'), (75, 'load'), (78, 'load'), (79, 'getelementptr'), (80, 'load'), (83, 'load'), (84, 'getelementptr'), (85, 'load'), (93, 'load'), (94, 'getelementptr'), (95, 'load')]
+[(105, 'load'), (115, 'load')]
+[(117, 'load')]
+[(116, 'load')]
+[(123, 'load'), (124, 'icmp'), (127, 'load')]
+[(120, 'getelementptr')]
+[(88, 'load')]
+[(89, 'load')]
+[(90, 'load')]
+[(102, 'load'), (103, 'icmp')]
+[(44, 'load'), (45, 'icmp'), (106, 'load')]
+[(99, 'load'), (100, 'trunc')]
+[(133, 'load')]
+[(137, 'load')]
+[(118, 'load')]
+[(119, 'load')]
+[(191, 'load'), (193, 'mul'), (195, 'mul'), (352, 'load'), (353, 'icmp'), (356, 'load'), (357, 'mul'), (359, 'mul'), (361, 'load'), (362, 'mul'), (363, 'add'), (365, 'add'), (369, 'load'), (370, 'mul'), (372, 'mul'), (373, 'add'), (375, 'load'), (376, 'mul'), (377, 'add'), (379, 'add'), (417, 'load'), (418, 'mul'), (420, 'mul'), (421, 'add'), (423, 'load'), (424, 'mul'), (425, 'add'), (427, 'add'), (437, 'load'), (438, 'icmp')]
+[(192, 'load'), (346, 'load'), (347, 'icmp'), (358, 'load'), (371, 'load'), (419, 'load'), (448, 'load'), (449, 'icmp')]
+[(194, 'load'), (340, 'load'), (341, 'icmp')]
+[(188, 'load'), (232, 'load'), (233, 'load'), (234, 'getelementptr'), (244, 'load'), (245, 'load'), (246, 'getelementptr'), (256, 'load'), (257, 'load'), (258, 'getelementptr'), (268, 'load'), (269, 'load'), (270, 'getelementptr'), (310, 'load'), (311, 'load'), (312, 'getelementptr'), (322, 'load'), (323, 'load'), (324, 'getelementptr'), (326, 'load'), (327, 'load'), (328, 'getelementptr'), (329, 'load'), (331, 'load'), (332, 'load'), (333, 'getelementptr'), (334, 'load'), (385, 'load'), (386, 'load'), (387, 'getelementptr'), (388, 'load'), (389, 'getelementptr'), (394, 'load'), (395, 'load'), (396, 'getelementptr'), (397, 'load'), (398, 'getelementptr'), (481, 'load'), (482, 'load'), (483, 'getelementptr'), (484, 'load'), (485, 'getelementptr'), (525, 'load'), (526, 'load'), (527, 'getelementptr'), (528, 'load'), (529, 'getelementptr'), (613, 'load'), (614, 'load'), (615, 'getelementptr'), (618, 'load'), (619, 'load'), (620, 'getelementptr'), (623, 'load'), (624, 'load'), (625, 'getelementptr'), (628, 'load'), (629, 'load'), (630, 'getelementptr'), (633, 'load'), (634, 'load'), (635, 'getelementptr'), (638, 'load'), (639, 'load'), (640, 'getelementptr'), (643, 'load'), (644, 'load'), (645, 'getelementptr')]
+[(280, 'load'), (538, 'load'), (539, 'load'), (540, 'getelementptr')]
+[(290, 'load'), (548, 'load'), (549, 'load'), (550, 'getelementptr')]
+[(300, 'load'), (554, 'load'), (555, 'load'), (556, 'getelementptr')]
+[(573, 'load'), (574, 'icmp'), (586, 'load'), (587, 'icmp'), (597, 'load'), (598, 'icmp')]
+[(208, 'load'), (209, 'mul'), (580, 'load'), (604, 'load')]
+[(216, 'load'), (217, 'mul'), (577, 'load'), (601, 'load')]
+[(458, 'load'), (459, 'trunc')]
+[(197, 'load'), (198, 'icmp'), (204, 'load'), (205, 'mul'), (207, 'load'), (215, 'load'), (220, 'load'), (221, 'add'), (222, 'sub'), (224, 'load'), (225, 'sext'), (227, 'extractvalue'), (228, 'extractvalue'), (229, 'select'), (231, 'bitcast'), (236, 'load'), (237, 'sext'), (239, 'extractvalue'), (240, 'extractvalue'), (241, 'select'), (243, 'bitcast'), (248, 'load'), (249, 'sext'), (251, 'extractvalue'), (252, 'extractvalue'), (253, 'select'), (255, 'bitcast'), (260, 'load'), (261, 'sext'), (263, 'extractvalue'), (264, 'extractvalue'), (265, 'select'), (267, 'bitcast'), (272, 'load'), (273, 'sext'), (275, 'extractvalue'), (276, 'extractvalue'), (277, 'select'), (279, 'bitcast'), (282, 'load'), (283, 'sext'), (285, 'extractvalue'), (286, 'extractvalue'), (287, 'select'), (289, 'bitcast'), (292, 'load'), (293, 'sext'), (295, 'extractvalue'), (296, 'extractvalue'), (297, 'select'), (299, 'bitcast'), (583, 'load'), (632, 'load'), (637, 'load')]
+[(302, 'load'), (303, 'sext'), (305, 'extractvalue'), (306, 'extractvalue'), (307, 'select'), (309, 'bitcast'), (314, 'load'), (315, 'sext'), (317, 'extractvalue'), (318, 'extractvalue'), (319, 'select'), (321, 'bitcast'), (607, 'load'), (642, 'load')]
+[(211, 'load'), (212, 'sext'), (213, 'mul'), (455, 'load'), (456, 'icmp'), (622, 'load')]
+[(627, 'load')]
+[(219, 'load'), (367, 'load'), (590, 'load'), (612, 'load')]
+[(593, 'load'), (617, 'load')]
+[(383, 'load'), (384, 'sext'), (392, 'load'), (393, 'sext'), (479, 'load'), (480, 'sext'), (523, 'load'), (524, 'sext'), (536, 'load'), (537, 'sext'), (546, 'load'), (547, 'sext'), (552, 'load'), (553, 'sext')]
+[(415, 'load'), (475, 'load'), (476, 'icmp')]
+[(522, 'load'), (531, 'load'), (532, 'sext'), (534, 'add'), (542, 'load'), (543, 'sub'), (544, 'sitofp'), (545, 'fsub')]
+[(451, 'load'), (452, 'icmp'), (454, 'load'), (474, 'load'), (497, 'load')]
+[(187, 'bitcast')]
+[(339, 'load')]
+[(345, 'load')]
+[(351, 'load')]
+[(355, 'load')]
+[(360, 'load')]
+[(364, 'load')]
+[(368, 'load')]
+[(374, 'load')]
+[(378, 'load')]
+[(382, 'load')]
+[(391, 'load')]
+[(402, 'load'), (403, 'icmp')]
+[(407, 'load'), (408, 'icmp')]
+[(412, 'load'), (413, 'icmp')]
+[(416, 'load')]
+[(422, 'load')]
+[(426, 'load')]
+[(429, 'load'), (431, 'add'), (432, 'icmp')]
+[(430, 'load')]
+[(434, 'load'), (436, 'add')]
+[(435, 'load')]
+[(440, 'load'), (442, 'add'), (443, 'icmp')]
+[(441, 'load')]
+[(445, 'load'), (447, 'add')]
+[(446, 'load')]
+[(461, 'load'), (463, 'mul'), (467, 'add'), (471, 'add'), (472, 'icmp')]
+[(462, 'load')]
+[(464, 'load'), (466, 'mul')]
+[(465, 'load')]
+[(468, 'load'), (470, 'mul')]
+[(469, 'load')]
+[(478, 'load')]
+[(487, 'load')]
+[(488, 'getelementptr')]
+[(492, 'load')]
+[(493, 'getelementptr')]
+[(498, 'load')]
+[(499, 'getelementptr')]
+[(502, 'load'), (503, 'add')]
+[(508, 'load'), (509, 'add')]
+[(513, 'load'), (514, 'add')]
+[(518, 'load'), (519, 'add')]
+[(533, 'load')]
+[(559, 'load'), (560, 'add')]
+[(564, 'load'), (565, 'add')]
+[(569, 'load'), (570, 'add')]
+[(698, 'load'), (700, 'load'), (706, 'load')]
+[(1149, 'load'), (1152, 'load'), (1153, 'load'), (1154, 'getelementptr'), (1157, 'load'), (1158, 'load'), (1159, 'getelementptr'), (1162, 'load'), (1163, 'load'), (1164, 'getelementptr'), (1167, 'load'), (1168, 'load'), (1169, 'getelementptr'), (1172, 'load'), (1173, 'load'), (1174, 'getelementptr'), (1177, 'load'), (1178, 'load'), (1179, 'getelementptr'), (1182, 'load'), (1183, 'load'), (1184, 'getelementptr'), (1187, 'load'), (1188, 'load'), (1189, 'getelementptr'), (1192, 'load'), (1193, 'load'), (1194, 'getelementptr'), (1197, 'load'), (1198, 'load'), (1199, 'getelementptr'), (1202, 'load'), (1203, 'load'), (1204, 'getelementptr')]
+[(805, 'load'), (1073, 'load'), (1074, 'load'), (1075, 'getelementptr')]
+[(815, 'load'), (1080, 'load'), (1081, 'load'), (1082, 'getelementptr')]
+[(825, 'load'), (1087, 'load'), (1088, 'load'), (1089, 'getelementptr')]
+[(703, 'load'), (704, 'icmp'), (710, 'load'), (712, 'load'), (835, 'load'), (955, 'load'), (985, 'load'), (1024, 'load'), (1068, 'load'), (1095, 'load'), (1106, 'load')]
+[(716, 'load'), (832, 'load'), (833, 'icmp'), (952, 'load'), (953, 'icmp'), (1043, 'load'), (1044, 'icmp'), (1161, 'load')]
+[(1166, 'load')]
+[(846, 'load'), (848, 'add'), (850, 'load'), (999, 'load')]
+[(836, 'load'), (987, 'load'), (1026, 'load')]
+[(989, 'load')]
+[(986, 'load'), (1025, 'load'), (1096, 'load'), (1097, 'load'), (1098, 'load')]
+[(965, 'load'), (966, 'icmp'), (1054, 'load'), (1055, 'icmp'), (1108, 'load'), (1109, 'icmp'), (1121, 'load'), (1122, 'icmp'), (1132, 'load'), (1133, 'icmp')]
+[(719, 'load'), (720, 'sdiv'), (723, 'load'), (724, 'srem'), (972, 'load'), (1061, 'load'), (1115, 'load'), (1139, 'load')]
+[(728, 'load'), (730, 'icmp'), (738, 'load'), (741, 'mul'), (743, 'load'), (745, 'icmp'), (747, 'load'), (749, 'sub'), (751, 'sub'), (969, 'load'), (1058, 'load'), (1112, 'load'), (1136, 'load')]
+[(718, 'load'), (722, 'load')]
+[(726, 'load'), (739, 'load'), (740, 'add')]
+[(729, 'load'), (744, 'load'), (748, 'load')]
+[(736, 'load'), (757, 'load'), (758, 'add'), (759, 'sub')]
+[(761, 'load'), (762, 'sext'), (764, 'extractvalue'), (765, 'extractvalue'), (766, 'select'), (768, 'bitcast'), (770, 'load'), (771, 'sext'), (773, 'extractvalue'), (774, 'extractvalue'), (775, 'select'), (777, 'bitcast'), (779, 'load'), (780, 'sext'), (782, 'extractvalue'), (783, 'extractvalue'), (784, 'select'), (786, 'bitcast'), (788, 'load'), (789, 'sext'), (791, 'extractvalue'), (792, 'extractvalue'), (793, 'select'), (795, 'bitcast'), (797, 'load'), (798, 'sext'), (800, 'extractvalue'), (801, 'extractvalue'), (802, 'select'), (804, 'bitcast'), (807, 'load'), (808, 'sext'), (810, 'extractvalue'), (811, 'extractvalue'), (812, 'select'), (814, 'bitcast'), (817, 'load'), (818, 'sext'), (820, 'extractvalue'), (821, 'extractvalue'), (822, 'select'), (824, 'bitcast'), (866, 'load'), (867, 'icmp'), (902, 'load'), (903, 'icmp'), (1118, 'load'), (1171, 'load'), (1176, 'load')]
+[(754, 'load'), (756, 'load')]
+[(838, 'load'), (840, 'icmp'), (957, 'load'), (959, 'icmp'), (1046, 'load'), (1048, 'icmp'), (1125, 'load'), (1151, 'load')]
+[(843, 'load'), (844, 'icmp'), (962, 'load'), (963, 'icmp'), (1051, 'load'), (1052, 'icmp'), (1128, 'load'), (1156, 'load')]
+[(853, 'load'), (854, 'getelementptr'), (914, 'load'), (915, 'getelementptr'), (916, 'load'), (917, 'sext'), (918, 'getelementptr'), (933, 'load'), (934, 'getelementptr'), (935, 'load'), (936, 'sext'), (937, 'getelementptr'), (1186, 'load')]
+[(892, 'load'), (893, 'getelementptr'), (908, 'load'), (909, 'getelementptr'), (910, 'load'), (921, 'load'), (922, 'getelementptr'), (994, 'load'), (995, 'getelementptr'), (996, 'load'), (997, 'getelementptr'), (1191, 'load')]
+[(896, 'load'), (897, 'getelementptr'), (927, 'load'), (928, 'getelementptr'), (929, 'load'), (940, 'load'), (941, 'getelementptr'), (1004, 'load'), (1005, 'getelementptr'), (1006, 'load'), (1007, 'getelementptr'), (1196, 'load')]
+[(1201, 'load')]
+[(873, 'load'), (874, 'sext'), (876, 'extractvalue'), (877, 'extractvalue'), (878, 'select'), (880, 'bitcast'), (882, 'load'), (883, 'sext'), (885, 'extractvalue'), (886, 'extractvalue'), (887, 'select'), (889, 'bitcast'), (1142, 'load'), (1181, 'load')]
+[(891, 'load')]
+[(895, 'load')]
+[(982, 'load'), (983, 'icmp'), (1021, 'load'), (1022, 'icmp')]
+[(1070, 'load')]
+[(1077, 'load')]
+[(1084, 'load')]
+[(732, 'load'), (733, 'add')]
+[(750, 'load')]
+[(831, 'load')]
+[(839, 'load')]
+[(842, 'load')]
+[(847, 'load')]
+[(851, 'load'), (852, 'sext')]
+[(856, 'load'), (857, 'add')]
+[(861, 'load'), (862, 'add')]
+[(865, 'load')]
+[(901, 'load')]
+[(905, 'load'), (906, 'sub'), (907, 'sext')]
+[(911, 'load'), (912, 'sub'), (913, 'sext')]
+[(919, 'load'), (920, 'sext')]
+[(924, 'load'), (925, 'sub'), (926, 'sext')]
+[(930, 'load'), (931, 'sub'), (932, 'sext')]
+[(938, 'load'), (939, 'sext')]
+[(944, 'load'), (945, 'add')]
+[(951, 'load')]
+[(958, 'load')]
+[(961, 'load')]
+[(975, 'load')]
+[(981, 'load')]
+[(990, 'load'), (991, 'sext')]
+[(992, 'load'), (993, 'sext')]
+[(1000, 'load'), (1001, 'sext')]
+[(1002, 'load'), (1003, 'sext')]
+[(1010, 'load'), (1011, 'add')]
+[(1014, 'load'), (1015, 'add')]
+[(1020, 'load')]
+[(1029, 'load'), (1030, 'add')]
+[(1035, 'load'), (1036, 'add')]
+[(1042, 'load')]
+[(1047, 'load')]
+[(1050, 'load')]
+[(1064, 'load')]
+[(1071, 'load'), (1072, 'sext')]
+[(1078, 'load'), (1079, 'sext')]
+[(1085, 'load'), (1086, 'sext')]
+[(1091, 'load'), (1092, 'add')]
+[(1102, 'load'), (1103, 'add')]
+[(1148, 'bitcast')]
+[(1330, 'load')]
+[(1225, 'load'), (1226, 'getelementptr'), (1227, 'load'), (1271, 'load'), (1272, 'getelementptr'), (1273, 'load'), (1274, 'getelementptr'), (1275, 'load'), (1279, 'load'), (1280, 'getelementptr'), (1281, 'load'), (1282, 'getelementptr'), (1283, 'load'), (1287, 'load'), (1288, 'getelementptr'), (1289, 'load'), (1290, 'getelementptr'), (1291, 'load')]
+[(1230, 'load'), (1231, 'mul'), (1234, 'load'), (1235, 'icmp'), (1240, 'load'), (1241, 'icmp'), (1246, 'load'), (1247, 'icmp'), (1252, 'load'), (1253, 'icmp')]
+[(1229, 'load'), (1266, 'load'), (1267, 'icmp')]
+[(1300, 'load'), (1302, 'add'), (1303, 'add')]
+[(1299, 'load'), (1326, 'load')]
+[(1312, 'load'), (1313, 'getelementptr'), (1314, 'load')]
+[(1306, 'load'), (1307, 'getelementptr'), (1308, 'load'), (1309, 'add')]
+[(1296, 'load'), (1297, 'icmp')]
+[(1265, 'load')]
+[(1269, 'load'), (1270, 'sext')]
+[(1277, 'load'), (1278, 'sext')]
+[(1285, 'load'), (1286, 'sext')]
+[(1295, 'load')]
+[(1301, 'load')]
+[(1304, 'load'), (1305, 'sext')]
+[(1310, 'load'), (1311, 'sext')]
+[(1317, 'load'), (1318, 'add')]
+[(1322, 'load'), (1323, 'add')]
+[(1373, 'load'), (1374, 'getelementptr'), (1375, 'load'), (1377, 'load'), (1378, 'getelementptr'), (1379, 'load'), (1441, 'load'), (1578, 'load')]
+[(1454, 'load')]
+[(1429, 'load'), (1430, 'load'), (1608, 'load'), (1611, 'load')]
+[(1413, 'load'), (1414, 'sdiv'), (1492, 'load'), (1493, 'icmp'), (1564, 'load'), (1565, 'icmp')]
+[(1497, 'load'), (1498, 'fcmp')]
+[(1627, 'load')]
+[(1408, 'load'), (1478, 'load'), (1484, 'load'), (1485, 'load'), (1495, 'load'), (1496, 'load'), (1552, 'load'), (1571, 'load'), (1572, 'load')]
+[(1635, 'load'), (1636, 'getelementptr'), (1639, 'load'), (1640, 'getelementptr'), (1643, 'load'), (1644, 'getelementptr'), (1647, 'load'), (1648, 'getelementptr'), (1671, 'load'), (1672, 'getelementptr')]
+[(1669, 'load'), (1670, 'fsub')]
+[(1621, 'load'), (1622, 'fsub'), (1624, 'fadd')]
+[(1634, 'load')]
+[(1638, 'load')]
+[(1642, 'load')]
+[(1646, 'load')]
+[(1381, 'load'), (1382, 'sext'), (1384, 'extractvalue'), (1385, 'extractvalue'), (1386, 'select'), (1388, 'bitcast'), (1399, 'load'), (1400, 'sext'), (1402, 'extractvalue'), (1403, 'extractvalue'), (1404, 'select'), (1406, 'bitcast'), (1428, 'load'), (1453, 'load'), (1466, 'load'), (1505, 'load'), (1521, 'load'), (1537, 'load'), (1591, 'load'), (1607, 'load'), (1613, 'load')]
+[(1390, 'load'), (1391, 'sext'), (1393, 'extractvalue'), (1394, 'extractvalue'), (1395, 'select'), (1397, 'bitcast')]
+[(1456, 'load'), (1467, 'load'), (1468, 'load'), (1506, 'load'), (1507, 'load'), (1522, 'load'), (1523, 'load'), (1538, 'load'), (1614, 'load'), (1618, 'load'), (1662, 'load'), (1663, 'icmp'), (1665, 'bitcast')]
+[(1431, 'load'), (1442, 'load'), (1508, 'load'), (1540, 'load'), (1541, 'load'), (1579, 'load'), (1592, 'load'), (1610, 'load'), (1650, 'load'), (1651, 'icmp'), (1653, 'bitcast')]
+[(1443, 'load'), (1455, 'load'), (1580, 'load'), (1593, 'load'), (1617, 'load'), (1656, 'load'), (1657, 'icmp'), (1659, 'bitcast')]
+[(1531, 'load'), (1533, 'fdiv'), (1550, 'load'), (1601, 'load'), (1603, 'fdiv')]
+[(1532, 'load')]
+[(1480, 'load'), (1481, 'icmp'), (1554, 'load'), (1555, 'icmp')]
+[(1558, 'load'), (1559, 'srem'), (1560, 'icmp')]
+[(1539, 'load')]
+[(1609, 'load'), (1615, 'load'), (1616, 'fsub')]
+[(1416, 'load'), (1417, 'icmp')]
+[(1421, 'load'), (1422, 'icmp')]
+[(1435, 'fsub'), (1437, 'fadd')]
+[(1434, 'load')]
+[(1436, 'load')]
+[(1447, 'fsub'), (1449, 'fadd')]
+[(1446, 'load')]
+[(1448, 'load')]
+[(1460, 'fsub'), (1462, 'fadd')]
+[(1459, 'load')]
+[(1461, 'load')]
+[(1472, 'fsub'), (1474, 'fadd')]
+[(1471, 'load')]
+[(1473, 'load')]
+[(1476, 'load')]
+[(1491, 'load')]
+[(1500, 'load'), (1501, 'icmp')]
+[(1512, 'fsub'), (1514, 'fadd')]
+[(1511, 'load')]
+[(1513, 'load')]
+[(1517, 'load')]
+[(1527, 'fsub'), (1529, 'fadd')]
+[(1526, 'load')]
+[(1528, 'load')]
+[(1545, 'fsub'), (1547, 'fadd')]
+[(1544, 'load')]
+[(1546, 'load')]
+[(1557, 'load')]
+[(1562, 'load'), (1563, 'add')]
+[(1568, 'load')]
+[(1584, 'fsub'), (1586, 'fadd')]
+[(1583, 'load')]
+[(1585, 'load')]
+[(1597, 'fsub'), (1599, 'fadd')]
+[(1596, 'load')]
+[(1598, 'load')]
+[(1602, 'load')]
+[(1623, 'load')]
+[(1626, 'load')]
+[(1630, 'load'), (1631, 'add')]
+[(1682, 'getelementptr'), (1683, 'getelementptr'), (1684, 'load'), (1685, 'sitofp'), (1686, 'getelementptr'), (1687, 'getelementptr'), (1688, 'load'), (1689, 'sitofp'), (1690, 'fdiv'), (1691, 'fadd')]
+[(1714, 'load'), (1715, 'icmp'), (1747, 'load'), (1748, 'icmp'), (1777, 'load'), (1778, 'icmp')]
+[(1708, 'load'), (1709, 'fcmp'), (1750, 'load'), (1756, 'fmul'), (1762, 'fadd'), (1780, 'load'), (1786, 'fmul'), (1794, 'fadd')]
+[(1719, 'load'), (1720, 'getelementptr'), (1721, 'load'), (1729, 'fadd'), (1753, 'load'), (1754, 'getelementptr'), (1755, 'load'), (1783, 'load'), (1784, 'getelementptr'), (1785, 'load')]
+[(1722, 'load'), (1728, 'fmul'), (1741, 'load'), (1742, 'fcmp'), (1787, 'load'), (1793, 'fmul')]
+[(1725, 'load'), (1726, 'getelementptr'), (1727, 'load'), (1759, 'load'), (1760, 'getelementptr'), (1761, 'load'), (1790, 'load'), (1791, 'getelementptr'), (1792, 'load')]
+[(1732, 'load'), (1733, 'getelementptr'), (1765, 'load'), (1766, 'getelementptr'), (1797, 'load'), (1798, 'getelementptr')]
+[(1713, 'load')]
+[(1717, 'load'), (1718, 'sext')]
+[(1723, 'load'), (1724, 'sext')]
+[(1730, 'load'), (1731, 'sext')]
+[(1736, 'load'), (1737, 'add')]
+[(1746, 'load')]
+[(1751, 'load'), (1752, 'sext')]
+[(1757, 'load'), (1758, 'sext')]
+[(1763, 'load'), (1764, 'sext')]
+[(1769, 'load'), (1770, 'add')]
+[(1776, 'load')]
+[(1781, 'load'), (1782, 'sext')]
+[(1788, 'load'), (1789, 'sext')]
+[(1795, 'load'), (1796, 'sext')]
+[(1801, 'load'), (1802, 'add')]
+[(1821, 'load'), (1822, 'getelementptr'), (1823, 'load'), (1834, 'load'), (1835, 'getelementptr'), (1836, 'load'), (1837, 'getelementptr'), (1838, 'load'), (1842, 'load'), (1843, 'getelementptr'), (1844, 'load'), (1845, 'getelementptr'), (1846, 'load'), (1850, 'load'), (1851, 'getelementptr'), (1852, 'load'), (1853, 'getelementptr'), (1854, 'load')]rm: cannot remove 'Result/representatives.txt': No such file or directory
+
+[(1873, 'load'), (1874, 'getelementptr'), (1875, 'load'), (1876, 'fmul'), (1878, 'fadd')]
+[(1888, 'load'), (1889, 'getelementptr')]
+[(1828, 'load'), (1829, 'icmp')]
+[(1885, 'load')]
+[(1864, 'load'), (1865, 'getelementptr'), (1866, 'load')]
+[(1869, 'load'), (1870, 'getelementptr'), (1871, 'load'), (1872, 'sext')]
+[(1859, 'load'), (1860, 'icmp')]
+[(1827, 'load')]
+[(1832, 'load'), (1833, 'sext')]
+[(1840, 'load'), (1841, 'sext')]
+[(1848, 'load'), (1849, 'sext')]
+[(1858, 'load')]
+[(1862, 'load'), (1863, 'sext')]
+[(1867, 'load'), (1868, 'sext')]
+[(1877, 'load')]
+[(1881, 'load'), (1882, 'add')]
+[(1886, 'load'), (1887, 'sext')]
+[(1892, 'load'), (1893, 'add')]
+[(1923, 'load'), (1924, 'icmp'), (1949, 'load'), (1950, 'icmp')]
+[(1917, 'load'), (1918, 'icmp'), (1928, 'load'), (1929, 'getelementptr'), (1930, 'load'), (1933, 'load'), (1934, 'getelementptr'), (1935, 'load'), (1936, 'fmul'), (1938, 'fadd'), (1954, 'load'), (1955, 'getelementptr'), (1956, 'load'), (1962, 'fmul'), (1964, 'fadd')]
+[(1916, 'load'), (1959, 'load'), (1960, 'getelementptr'), (1961, 'load')]
+[(1973, 'load')]
+[(1972, 'load')]
+[(1922, 'load')]
+[(1926, 'load'), (1927, 'sext')]
+[(1931, 'load'), (1932, 'sext')]
+[(1937, 'load')]
+[(1941, 'load'), (1942, 'add')]
+[(1948, 'load')]
+[(1952, 'load'), (1953, 'sext')]
+[(1957, 'load'), (1958, 'sext')]
+[(1963, 'load')]
+[(1967, 'load'), (1968, 'add')]
+<END>*********** seqeunces after ignoring excluded inst list **********
+
+
+
+<START>------- Representatives  **********
+
+load 142
+load 38
+icmp 39
+icmp 42
+icmp 71
+load 50
+load 52
+load 61
+load 75
+load 80
+load 85
+load 95
+load 105
+load 117
+load 116
+load 123
+icmp 124
+getelementptr 120
+load 88
+load 89
+load 90
+load 102
+icmp 103
+load 44
+icmp 45
+load 99
+trunc 100
+load 133
+load 137
+load 118
+load 119
+load 191
+icmp 353
+icmp 438
+load 192
+icmp 347
+icmp 449
+load 194
+icmp 341
+load 188
+load 244
+load 256
+load 268
+load 310
+load 322
+load 326
+load 329
+load 334
+load 388
+load 394
+load 397
+load 481
+load 484
+load 525
+load 528
+load 613
+load 618
+load 623
+load 628
+load 633
+load 638
+load 643
+load 280
+load 290
+load 300
+load 573
+icmp 574
+icmp 587
+icmp 598
+load 208
+load 216
+load 458
+trunc 459
+load 197
+icmp 198
+sext 225
+extractvalue 227
+extractvalue 228
+bitcast 231
+sext 237
+extractvalue 239
+extractvalue 240
+bitcast 243
+sext 249
+extractvalue 251
+extractvalue 252
+bitcast 255
+sext 261
+extractvalue 263
+extractvalue 264
+bitcast 267
+sext 273
+extractvalue 275
+extractvalue 276
+bitcast 279
+sext 283
+extractvalue 285
+extractvalue 286
+bitcast 289
+sext 293
+extractvalue 295
+extractvalue 296
+bitcast 299
+load 302
+sext 303
+extractvalue 305
+extractvalue 306
+bitcast 309
+sext 315
+extractvalue 317
+extractvalue 318
+bitcast 321
+load 211
+sext 212
+icmp 456
+load 627
+load 219
+load 593
+load 383
+sext 384
+sext 393
+sext 480
+sext 524
+sext 537
+sext 547
+sext 553
+load 415
+icmp 476
+load 522
+sext 532
+sitofp 544
+load 451
+icmp 452
+bitcast 187
+load 339
+load 345
+load 351
+load 355
+load 360
+load 364
+load 368
+load 374
+load 378
+load 382
+load 391
+load 402
+icmp 403
+load 407
+icmp 408
+load 412
+icmp 413
+load 416
+load 422
+load 426
+load 429
+icmp 432
+load 430
+load 434
+load 435
+load 440
+icmp 443
+load 441
+load 445
+load 446
+load 461
+icmp 472
+load 462
+load 464
+load 465
+load 468
+load 469
+load 478
+load 487
+getelementptr 488
+load 492
+getelementptr 493
+load 498
+getelementptr 499
+load 502
+load 508
+load 513
+load 518
+load 533
+load 559
+load 564
+load 569
+load 698
+load 1149
+load 1157
+load 1162
+load 1167
+load 1172
+load 1177
+load 1182
+load 1187
+load 1192
+load 1197
+load 1202
+load 805
+load 815
+load 825
+load 703
+icmp 704
+load 716
+icmp 833
+icmp 953
+icmp 1044
+load 1166
+load 846
+load 836
+load 989
+load 986
+load 965
+icmp 966
+icmp 1055
+icmp 1109
+icmp 1122
+icmp 1133
+load 719
+load 728
+icmp 730
+icmp 745
+load 718
+load 726
+load 729
+load 736
+load 761
+sext 762
+extractvalue 764
+extractvalue 765
+bitcast 768
+sext 771
+extractvalue 773
+extractvalue 774
+bitcast 777
+sext 780
+extractvalue 782
+extractvalue 783
+bitcast 786
+sext 789
+extractvalue 791
+extractvalue 792
+bitcast 795
+sext 798
+extractvalue 800
+extractvalue 801
+bitcast 804
+sext 808
+extractvalue 810
+extractvalue 811
+bitcast 814
+sext 818
+extractvalue 820
+extractvalue 821
+bitcast 824
+icmp 867
+icmp 903
+load 754
+load 838
+icmp 840
+icmp 959
+icmp 1048
+load 843
+icmp 844
+icmp 963
+icmp 1052
+load 853
+load 914
+load 916
+sext 917
+load 933
+load 935
+sext 936
+load 1186
+load 892
+load 908
+load 910
+load 994
+load 996
+load 1191
+load 896
+load 927
+load 929
+load 1004
+load 1006
+load 1196
+load 1201
+load 873
+sext 874
+extractvalue 876
+extractvalue 877
+bitcast 880
+sext 883
+extractvalue 885
+extractvalue 886
+bitcast 889
+load 891
+load 895
+load 982
+icmp 983
+icmp 1022
+load 1070
+load 1077
+load 1084
+load 732
+load 750
+load 831
+load 839
+load 842
+load 847
+load 851
+sext 852
+load 856
+load 861
+load 865
+load 901
+load 905
+sext 907
+load 911
+sext 913
+load 919
+sext 920
+load 924
+sext 926
+load 930
+sext 932
+load 938
+sext 939
+load 944
+load 951
+load 958
+load 961
+load 975
+load 981
+load 990
+sext 991
+load 992
+sext 993
+load 1000
+sext 1001
+load 1002
+sext 1003
+load 1010
+load 1014
+load 1020
+load 1029
+load 1035
+load 1042
+load 1047
+load 1050
+load 1064
+load 1071
+sext 1072
+load 1078
+sext 1079
+load 1085
+sext 1086
+load 1091
+load 1102
+bitcast 1148
+load 1330
+load 1225
+load 1227
+load 1273
+load 1275
+load 1281
+load 1283
+load 1289
+load 1291
+load 1230
+icmp 1235
+icmp 1241
+icmp 1247
+icmp 1253
+load 1229
+icmp 1267
+load 1300
+load 1299
+load 1312
+load 1314
+load 1306
+load 1308
+load 1296
+icmp 1297
+load 1265
+load 1269
+sext 1270
+load 1277
+sext 1278
+load 1285
+sext 1286
+load 1295
+load 1301
+load 1304
+sext 1305
+load 1310
+sext 1311
+load 1317
+load 1322
+load 1373
+load 1375
+load 1379
+load 1454
+load 1429
+load 1413
+icmp 1493
+icmp 1565
+load 1497
+fcmp 1498
+load 1627
+load 1408
+load 1635
+load 1639
+load 1643
+load 1647
+load 1671
+load 1669
+load 1621
+load 1634
+load 1638
+load 1642
+load 1646
+load 1381
+sext 1382
+extractvalue 1384
+extractvalue 1385
+bitcast 1388
+sext 1400
+extractvalue 1402
+extractvalue 1403
+bitcast 1406
+load 1390
+sext 1391
+extractvalue 1393
+extractvalue 1394
+bitcast 1397
+load 1456
+icmp 1663
+bitcast 1665
+load 1431
+icmp 1651
+bitcast 1653
+load 1443
+icmp 1657
+bitcast 1659
+load 1531
+load 1532
+load 1480
+icmp 1481
+icmp 1555
+load 1558
+icmp 1560
+load 1539
+load 1609
+load 1416
+icmp 1417
+load 1421
+icmp 1422
+fsub 1435
+load 1434
+load 1436
+fsub 1447
+load 1446
+load 1448
+fsub 1460
+load 1459
+load 1461
+fsub 1472
+load 1471
+load 1473
+load 1476
+load 1491
+load 1500
+icmp 1501
+fsub 1512
+load 1511
+load 1513
+load 1517
+fsub 1527
+load 1526
+load 1528
+fsub 1545
+load 1544
+load 1546
+load 1557
+load 1562
+load 1568
+fsub 1584
+load 1583
+load 1585
+fsub 1597
+load 1596
+load 1598
+load 1602
+load 1623
+load 1626
+load 1630
+getelementptr 1682
+load 1684
+sitofp 1685
+load 1688
+sitofp 1689
+load 1714
+icmp 1715
+icmp 1748
+icmp 1778
+load 1708
+fcmp 1709
+load 1719
+load 1721
+load 1755
+load 1785
+load 1722
+fcmp 1742
+load 1725
+load 1727
+load 1761
+load 1792
+load 1732
+load 1765
+load 1797
+load 1713
+load 1717
+sext 1718
+load 1723
+sext 1724
+load 1730
+sext 1731
+load 1736
+load 1746
+load 1751
+sext 1752
+load 1757
+sext 1758
+load 1763
+sext 1764
+load 1769
+load 1776
+load 1781
+sext 1782
+load 1788
+sext 1789
+load 1795
+sext 1796
+load 1801
+load 1821
+load 1823
+load 1836
+load 1838
+load 1844
+load 1846
+load 1852
+load 1854
+load 1873
+load 1875
+load 1888
+load 1828
+icmp 1829
+load 1885
+load 1864
+load 1866
+load 1869
+load 1871
+sext 1872
+load 1859
+icmp 1860
+load 1827
+load 1832
+sext 1833
+load 1840
+sext 1841
+load 1848
+sext 1849
+load 1858
+load 1862
+sext 1863
+load 1867
+sext 1868
+load 1877
+load 1881
+load 1886
+sext 1887
+load 1892
+load 1923
+icmp 1924
+icmp 1950
+load 1917
+icmp 1918
+load 1930
+load 1935
+load 1956
+load 1916
+load 1961
+load 1973
+load 1972
+load 1922
+load 1926
+sext 1927
+load 1931
+sext 1932
+load 1937
+load 1941
+load 1948
+load 1952
+sext 1953
+load 1957
+sext 1958
+load 1963
+load 1967
+<END>------- Representatives **********
+
+representative fi sites count:  609
+total fi sites count:  1109
+ratio:  0.4508566275924256
+
+see the Result/pruned_ratio.txt file 

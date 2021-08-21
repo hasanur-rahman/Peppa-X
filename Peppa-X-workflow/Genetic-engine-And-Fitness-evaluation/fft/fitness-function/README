@@ -1,0 +1,4 @@
+
+sample command:
+	python3 getSum.py "-m10 -p1 -n65536 -l4 -t"
+

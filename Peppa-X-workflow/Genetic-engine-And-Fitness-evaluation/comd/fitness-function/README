@@ -1,0 +1,4 @@
+
+sample command:
+	python3 getSum.py "-x 15 -y 15 -z 15 -N 15"
+

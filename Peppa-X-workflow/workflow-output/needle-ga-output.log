@@ -1,0 +1,27 @@
+**** [TIME] **** : 09/04/2021 14:20:03
+Evaluating input: 4416 136 1; Sum(): 1752.3697; Code Coverage: 0.85
+**** [TIME] **** : 09/04/2021 14:20:05
+Evaluating input: 176 61 1; Sum(): 1792.3319; Code Coverage: 0.85
+**** [TIME] **** : 09/04/2021 14:20:06
+Evaluating input: 4448 256 1; Sum(): 1752.3577; Code Coverage: 0.85
+**** [TIME] **** : 09/04/2021 14:20:08
+Evaluating input: 1520 233 1; Sum(): 1755.554; Code Coverage: 0.85
+**** [TIME] **** : 09/04/2021 14:20:08
+Evaluating input: 4736 271 1; Sum(): 1752.2567; Code Coverage: 0.85
+**** [TIME] **** : 09/04/2021 14:20:10
+--> Best score at gen 0: 1755.554
+--> Best score so far : 1755.554
+-------------------------------------------------------
+Evaluating input: 4736 271 1; Sum(): 1752.2567; Code Coverage: 0.85
+**** [TIME] **** : 09/04/2021 14:20:10
+Evaluating input: 4048 213 1; Sum(): 1752.5218; Code Coverage: 0.85
+**** [TIME] **** : 09/04/2021 14:20:12
+Evaluating input: 4416 136 1; Sum(): 1752.3697; Code Coverage: 0.85
+**** [TIME] **** : 09/04/2021 14:20:12
+Evaluating input: 4736 271 1; Sum(): 1752.2567; Code Coverage: 0.85
+**** [TIME] **** : 09/04/2021 14:20:12
+Evaluating input: 1520 233 1; Sum(): 1755.554; Code Coverage: 0.85
+**** [TIME] **** : 09/04/2021 14:20:12
+--> Best score at gen 1: 1755.554
+--> Best score so far : 1755.554
+-------------------------------------------------------

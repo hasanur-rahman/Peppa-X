@@ -1,0 +1,20 @@
+defaultTimeOut: 500
+
+compileOption:
+    instSelMethod:
+      - insttype:
+          include:
+            - all
+          exclude:
+            - ret
+            - alloca
+            - call
+            - phi
+
+    regSelMethod: regloc
+    regloc: dstreg
+
+runOption:
+    - run:
+        numOfRuns: 1000
+        fi_type: bitflip
